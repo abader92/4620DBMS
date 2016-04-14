@@ -1,5 +1,5 @@
 <?php
-session_start()
+  session_start();
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -16,7 +16,7 @@ session_start()
   $query = "SELECT * from category As c
                      join media As m
                      on c.mediaid = m.mediaid 
-                     Where c.category = ";
+                     Where c.category = "";
   $result = mysql_query( $query );
   if (!$result) {
     die("Could not query the media table in the database: <br> />". mysql_error());
