@@ -39,6 +39,10 @@ Welcome <?php echo $_SESSION['username'];?></span></p>
 	</form>
 <!-- This is our logout button -->
 <a href='logout.php'  style="color:#000000;">Log Out</a>
+
+<!-- This is our browse button 
+<a href='browse_category.php' style="color:#000000;">Browse</a>
+**will be a dropdown listing all categories or something I assume-->
 	
 <!-- This is our upload media button -->
 <a href='media_upload.php'  style="color:#000000;">Upload File</a>
